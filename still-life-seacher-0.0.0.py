@@ -8,7 +8,7 @@ while True:
     for i in range(m):
         grid.append([0, 0])
         for j in range(n):
-            grid[-1].append(0 if random() < p else 1)
+            grid[-1].append(1 if random() < p else 0)
         grid[-1].extend([0, 0])
     grid.append((n + 4) * [0])
     grid.append((n + 4) * [0])
